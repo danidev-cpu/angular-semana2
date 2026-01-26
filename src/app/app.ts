@@ -5,7 +5,7 @@ import { EventsShowComponent } from './events-show/events-show.component';
   selector: 'app-root',
   imports: [EventsShowComponent],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
   protected readonly title = signal('angular-events');
