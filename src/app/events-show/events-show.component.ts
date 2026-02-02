@@ -25,14 +25,14 @@ export class EventsShowComponent {
   events: IEvent[] = [
     {
       title: 'Evento de prueba',
-      image: '/images/Evento1.jpeg',
+      image: 'images/Evento1.jpeg',
       date: '2019-03-15',
       description: 'Nos lo pasaremos genial',
       price: 23.95,
     },
     {
       title: 'Evento de prueba 2',
-      image: '/images/Evento2.jpeg',
+      image: 'images/Evento2.jpeg',
       date: '2019-03-21',
       description: 'Este es peor',
       price: 15.5,
@@ -78,3 +78,4 @@ export class EventsShowComponent {
     });
   }
 }
+
